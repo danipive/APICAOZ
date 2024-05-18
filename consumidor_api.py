@@ -1,7 +1,7 @@
 import requests
 
 # URL base de la API
-base_url = 'http://127.0.0.1:5000'  # Cambia esto si tu servidor Flask se está ejecutando en una dirección o puerto diferente
+base_url = 'http://127.0.0.1:8000'  # Cambia esto si tu servidor Flask se está ejecutando en una dirección o puerto diferente
 
 def obtener_clientes():
     """
