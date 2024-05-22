@@ -15,7 +15,7 @@ clientes = [
         {"id_producto": 2, "nombre": "CATA USME SHORT", "precio": 160000, "talla": "XL", "enlace": "/producto/2", "cantidad_disponible_XL": 1},
         {"id_producto": 8, "nombre": "BUSO ROUND NECK MORADO", "precio": 120000, "talla": "M", "enlace": "/producto/8", "cantidad_disponible_M": 11}
     ]},
-    {"id": 4, "nombre_cliente": "C", "productos": [
+    {"id": 4, "nombre_cliente": "Anderson Castaño", "productos": [
         {"id_producto": 11, "nombre": "COLLEGE BLUE T-SHIRT", "precio": 165000, "talla": "L", "enlace": "/producto/11", "cantidad_disponible_L": 2}
     ]},
     {"id": 5, "nombre_cliente": "Maria José Ortiz", "productos": [
