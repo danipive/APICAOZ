@@ -4,56 +4,56 @@ app = Flask(__name__)
 
 # Datos de ejemplo de clientes y productos
 clientes = [
-    {"id": 1, "nombre_cliente": "Cliente 1", "productos": [
+    {"id": 1, "nombre_cliente": "Valeria Correa ", "productos": [
         {"id_producto": 6, "nombre": "CUT CROP TOP AMARILLO", "precio": 85000, "talla": "M", "enlace": "/producto/6", "cantidad_disponible_M": 4},
         {"id_producto": 8, "nombre": "BUSO ROUND NECK MORADO", "precio": 120000, "talla": "L", "enlace": "/producto/8", "cantidad_disponible_L": 43}
     ]},
-    {"id": 2, "nombre_cliente": "Cliente 2", "productos": [
+    {"id": 2, "nombre_cliente": "Daniel Pineda", "productos": [
         {"id_producto": 10, "nombre": "BASIC TREE RIB VERDE", "precio": 85000, "talla": "S", "enlace": "/producto/10", "cantidad_disponible_S": 4}
     ]},
-    {"id": 3, "nombre_cliente": "Cliente 3", "productos": [
+    {"id": 3, "nombre_cliente": "Julián Valencia ", "productos": [
         {"id_producto": 2, "nombre": "CATA USME SHORT", "precio": 160000, "talla": "XL", "enlace": "/producto/2", "cantidad_disponible_XL": 1},
         {"id_producto": 8, "nombre": "BUSO ROUND NECK MORADO", "precio": 120000, "talla": "M", "enlace": "/producto/8", "cantidad_disponible_M": 11}
     ]},
-    {"id": 4, "nombre_cliente": "Cliente 4", "productos": [
+    {"id": 4, "nombre_cliente": "C", "productos": [
         {"id_producto": 11, "nombre": "COLLEGE BLUE T-SHIRT", "precio": 165000, "talla": "L", "enlace": "/producto/11", "cantidad_disponible_L": 2}
     ]},
-    {"id": 5, "nombre_cliente": "Cliente 5", "productos": [
+    {"id": 5, "nombre_cliente": "Maria José Ortiz", "productos": [
         {"id_producto": 9, "nombre": "HOODIE CROP ENRESORTADO BLANCO", "precio": 190000, "talla": "S", "enlace": "/producto/9", "cantidad_disponible_S": 3},
         {"id_producto": 11, "nombre": "COLLEGE BLUE T-SHIRT", "precio": 165000, "talla": "XL", "enlace": "/producto/11", "cantidad_disponible_XL": 2}
     ]},
-    {"id": 6, "nombre_cliente": "Cliente 6", "productos": [
+    {"id": 6, "nombre_cliente": " Diana Galvis", "productos": [
         {"id_producto": 7, "nombre": "JEAN CARPENTER MUJER 369 AZUL", "precio": 190000, "talla": "M", "enlace": "/producto/7", "cantidad_disponible_M": 3}
     ]},
-    {"id": 7, "nombre_cliente": "Cliente 7", "productos": [
+    {"id": 7, "nombre_cliente": "David Osorio", "productos": [
         {"id_producto": 2, "nombre": "CATA USME SHORT", "precio": 160000, "talla": "L", "enlace": "/producto/2", "cantidad_disponible_L": 7},
         {"id_producto": 3, "nombre": "CATA USME PULLOVER", "precio": 220.000, "talla": "S", "enlace": "/producto/3", "cantidad_disponible_S": 23}
     ]},
-    {"id": 8, "nombre_cliente": "Cliente 8", "productos": [
+    {"id": 8, "nombre_cliente": "Juan Arriola ", "productos": [
         {"id_producto": 3, "nombre": "CATA USME PULLOVER", "precio": 220000, "talla": "M", "enlace": "/producto/3", "cantidad_disponible_M": 3}
     ]},
-    {"id": 9, "nombre_cliente": "Cliente 9", "productos": [
+    {"id": 9, "nombre_cliente": "Ricardo Sánchez", "productos": [
         {"id_producto": 2, "nombre": "CATA USME SHORT", "precio": 160000, "talla": "XL", "enlace": "/producto/2", "cantidad_disponible_XL": 1},
         {"id_producto": 11, "nombre": "COLLEGE BLUE T-SHIRT", "precio": 165000, "talla": "S", "enlace": "/producto/11", "cantidad_disponible_S": 3}
     ]},
-    {"id": 10, "nombre_cliente": "Cliente 10", "productos": [
+    {"id": 10, "nombre_cliente": "Sofia londoño ", "productos": [
         {"id_producto": 4, "nombre": "CATA USME HOODIE", "precio": 210000, "talla": "L", "enlace": "/producto/4", "cantidad_disponible_L": 4}
     ]},
-    {"id": 11, "nombre_cliente": "Cliente 11", "productos": [
+    {"id": 11, "nombre_cliente": "Matías Vecino", "productos": [
         {"id_producto": 9, "nombre": "HOODIE CROP ENRESORTADO BLANCO", "precio": 190000, "talla": "M", "enlace": "/producto/9", "cantidad_disponible_M": 4},
         {"id_producto": 4, "nombre": "CATA USME HOODIE", "precio": 210000, "talla": "XL", "enlace": "/producto/4", "cantidad_disponible_XL": 8}
     ]},
-    {"id": 12, "nombre_cliente": "Cliente 12", "productos": [
+    {"id": 12, "nombre_cliente": "Andrés Mazo ", "productos": [
         {"id_producto": 5, "nombre": "CATA USME GRAY HOODIE", "precio": 260000, "talla": "S", "enlace": "/producto/5", "cantidad_disponible_S": 3}
     ]},
-    {"id": 13, "nombre_cliente": "Cliente 13", "productos": [
+    {"id": 13, "nombre_cliente": " David González", "productos": [
         {"id_producto": 6, "nombre": "CUT CROP TOP AMARILLO", "precio": 85000, "talla": "L", "enlace": "/producto/6", "cantidad_disponible_L": 2},
         {"id_producto": 4, "nombre": "CATA USME HOODIE", "precio": 210000, "talla": "M", "enlace": "/productos/4", "cantidad_disponible_M": 3}
     ]},
-    {"id": 14, "nombre_cliente": "Cliente 14", "productos": [
+    {"id": 14, "nombre_cliente": "Valentina Orrego", "productos": [
         {"id_producto": 4, "nombre": "CATA USME HOODIE", "precio": 210000, "talla": "XL", "enlace": "/producto/4", "cantidad_disponible_XL": 8}
     ]},
-    {"id": 15, "nombre_cliente": "Cliente 15", "productos": [
+    {"id": 15, "nombre_cliente": "Carlos Bustamante", "productos": [
         {"id_producto": 7, "nombre": "JEAN CARPENTER MUJER 369 AZUL", "precio": 190000, "talla": "S", "enlace": "/producto/7", "cantidad_disponible_S": 2}
     ]}
 ]
